@@ -6,8 +6,8 @@ project(${PROJECT_NAME} LANGUAGES CXX)
 # not be changed
 set(PLUGIN_NAME "native_opencv_windows_plugin")
 
-set(OpenCV_RELEASE_DLL_NAME "opencv_world454.dll")
-set(OpenCV_DEBUG_DLL_NAME "opencv_world454d.dll")
+set(OpenCV_RELEASE_DLL_NAME "opencv_world460.dll")
+set(OpenCV_DEBUG_DLL_NAME "opencv_world460d.dll")
 
 add_library(${PLUGIN_NAME} SHARED
   "native_opencv_windows_plugin.cpp"

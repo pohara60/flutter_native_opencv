@@ -10,12 +10,12 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^0.1.2
+  cupertino_icons: ^1.0.5
   native_opencv:
     path: native_opencv
-  ffi: ^1.1.2
+  ffi: ^2.0.1
   image_picker: ^0.8.4+4
-  file_picker: ^4.2.0
+  file_picker: ^5.2.4
   path_provider: ^2.0.6
 
 dev_dependencies:
